@@ -475,9 +475,13 @@ h1{
   text-align: center;
   font-size: var(--font-lg);
   color: var(--primary-dark);
-  margin-bottom: var(--spacing-2xl);
+  margin-bottom: var(--spacing-xl);
   font-weight: var(--fw-bold);
   font-family: fantasy;
+   border-bottom: 3px solid #ed9118;
+  padding-bottom: 5px;
+  display: inline-block;
+  margin-left: 365px;
 }
 .section-subtitle {
   text-align: center;
@@ -563,6 +567,9 @@ h1{
   margin-bottom: 10px;
   align-items: flex-start;
   font-family: fantasy;
+   border-bottom: 3px solid #ed9118;
+  padding-bottom: 5px;
+  display: inline-block;
 }
 .snippet-grid {
   display: flex;
@@ -633,7 +640,8 @@ h1{
   gap: var(--spacing-2xl);
   align-items: flex-start;
 }
-.site-footer .footer-content img{
+.site-footer .footer-content img,
+.info-list div h3 img{
   width: 20px;
   height: 20px;
   margin-right: 10px;
@@ -787,12 +795,14 @@ h1{
 }
 .other-content h1 {
   font-weight: 300;
-  /* font-size: 29px; */
   color: var(--primary-dark);
   margin-bottom: 9px;
   font-family: fantasy;
   align-items: center;
   margin-top: 50px;
+    border-bottom: 3px solid #ed9118;
+  padding-bottom: 5px;
+  display: inline-block;
 }
 .other-content p {
   color: var(--text-muted);
@@ -878,8 +888,8 @@ h1{
   color: white;
 }
 .programmes-text p {
-  color: #ed9118;
-  font-size: 20px;
+  color: var(--gold-hover);
+  font-size: 25px;
   font-weight: 500;
   font-family: Arial, Helvetica, sans-serif;
   margin-top: 10px;
@@ -894,7 +904,7 @@ h1{
   color: #0a1f3c;
   font-weight: 500;
   font-size: 20px;
-  font-family: monospace;
+  font-family: var(--font-body);
 }
 /* academic progs */
 .academic-programs {
@@ -911,7 +921,6 @@ h1{
   display: inline-block;
   color: #0a1f3c;
   font-weight: 500;
-  /* font-size: 33px; */
   border-bottom: 3px solid #ed9118;
   padding-bottom: 5px;
   font-family: fantasy;
@@ -947,7 +956,6 @@ h1{
 }
 .top-info h1 {
   color: #ed9118;
-  /* font-size: 25px; */
   margin-top: -10px;
 }
 .top-info p {
@@ -1076,8 +1084,9 @@ h1{
 }
 .grid2 h2 {
   color: white;
-  font-size: 35px;
-  font-weight: 600;
+  font-size: 60px;
+  font-weight: 800;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .form-card h2,
 .contact-card h2 {
@@ -1087,9 +1096,11 @@ h1{
   font-weight: 600;
 }
 .contact-info p {
-  color: #ffffff;
-  font-size: 40px;
-  font-weight: 700;
+  color: var(--gold-hover);
+  font-size: 30px;
+  font-weight: 500;
+  margin-left: 350px;
+  margin-top: -35px;
 }
 .contact-info {
   margin-top: 50px;
